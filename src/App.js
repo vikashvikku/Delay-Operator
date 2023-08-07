@@ -14,7 +14,7 @@ function App() {
 
   const count = () => {
     if (delay > 0) {
-      setCountDown(delay - 1);
+      setCountDown(delay);
     }
   };
 
